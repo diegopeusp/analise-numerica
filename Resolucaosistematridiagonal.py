@@ -39,7 +39,7 @@ def tridiagonalsystemsolution(A,B,b):
     X = backSubstitution(L,Y)
     print ("X=",X)
 # Exemplo
-A=[2, 2, 2, 2, 2]   #diagonal vetor size n.
-B=[1, 1, 1 ,1]      #Subdiagonal vetor size n-1.
-b=[1, 1, 1, 1,1]   #vetor answer size  n.
+A=[2, 2, 2, 2, 2]   #diagonal vetor of Q size n.
+B=[1, 1, 1 ,1]      #Subdiagonal vetor OF Q size n-1.
+b=[1, 1, 1, 1,1]   #vetor answer b size  n.
 tridiagonalsystemsolution(A,B,b)
